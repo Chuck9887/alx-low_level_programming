@@ -3,33 +3,22 @@
 
 
 /**
- *
- * print_alphabet - print alphabet
+ * print_alphabet - in small letters
  *
  * Return: void
- *
  */
-
-
 
 void print_alphabet(void)
 
 {
+	char alphabet = 'a';
 
-		char letter = 'a';
-
-
-
-			while (letter <= 'z')
-
-					{
-
-								_putchar(letter);
-
-										letter++;
-
-											}
-
-				_putchar('\n');
-
+	while (alphabet <= 'z')
+	{
+		_putchar (alphabet);
+		alphabet++;
+	}
+	_putchar('\n');
 }
+
+
