@@ -8,7 +8,6 @@
  */
 
 int check_int(int square, int x)
-
 {
 	if (x * x == square)
 		return (x);
@@ -27,7 +26,6 @@ int check_int(int square, int x)
  */
 
 int _sqrt_recursion(int n)
-
 {
 	int start;
 
