@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * check_int - checks integer as candidate for square root
  * @square: square integer
